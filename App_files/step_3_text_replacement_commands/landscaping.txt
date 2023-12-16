@@ -1,0 +1,53 @@
+perl -0777 -i'' -pe \
+"s/MealPro/LandSculpt Pro/g; \
+s/whitelabel meal planning app/white-label landscaping design software/g; \
+s/offer custom branded, interactive meal plans and recipes to your audience/empower you to offer custom branded, interactive 3D landscaping designs and project management tools to your clientele/g; \
+s/Your very own professional meal planner app/Your very own professional landscaping design software/g; \
+s/all the technical and time-consuming aspects of building and maintaining a professional app/all the technical and time-consuming aspects of creating and managing a sophisticated design tool/g; \
+s/serving your community/transforming outdoor spaces and delighting your clients/g; \
+s/Customize MealPro/Customize LandSculpt Pro/g; \
+s/Add your name, your logo, and your color scheme/Brand the software with your company name, logo, and color scheme/g; \
+s/Add your recipes and create a meal plan/Design with 3D Modeling/g; \
+s/MealPro makes it easy to quickly add your recipes and combine them into a weekly meal plan for your users/Use LandSculpt Pro's intuitive 3D design features to create stunning outdoor spaces/g; \
+s/Add it to your blog or website/Integrate with Your Business/g; \
+s/MealPro easily integrates with your existing setup/Seamlessly integrate LandSculpt Pro with your existing systems/g; \
+s/Impress your audience/Amaze Your Clients/g; \
+s/Your users simply log in and access your recipes and your latest meal plan/Clients can log in to view progress on their projects, provide feedback, and see the projected outcome/g; \
+s/Finally, an easy way to help your fans integrate your diet advice into their life/Finally, a sophisticated way to engage clients in the design process and empower them to envision their dream landscapes/g; \
+s/to your audience, this is your app/From their perspective, this is your proprietary software/g; \
+s/the app works seamlessly on desktop, laptop, smartphone or tablet/The software runs flawlessly on desktop, laptop, smartphone, or tablet/g; \
+s/Curated weekly meal plans/Dynamic 3D Landscaping Designs/g; \
+s/featuring all your own recipes/Featuring real-time editing and updates/g; \
+s/Nutritional information for each recipe/Detailed Plant and Materials Selection/g; \
+s/so your users can keep track of their macros/So clients can envision every aspect of their outdoor space/g; \
+s/Recipe search and filters/Project Management Tools/g; \
+s/users can filter by food intolerance, meal category, time of day and much more/Manage client proposals, schedules, and deliverables all in one place/g; \
+s/Interactive shopping list/Cost Estimation Calculator/g; \
+s/automatically create a handy, interactive grocery list with all the necessary ingredients for the current meal plan/Automatically generate accurate cost estimates for projects, enhancing transparency and trust/g; \
+s/Custom serving sizes/Client Collaboration Portal/g; \
+s/automatically updating the ingredients list in the recipes and even their shopping list/Where clients can provide input and see their projects come to life/g; \
+s/Export as PDF feature/PDF Export Feature/g; \
+s/meaning your users can save your meal plan and the relevant recipes as a PDF that they can print or keep/Clients can download project proposals and designs as PDFs for easy sharing and decision-making/g; \
+s/Support for imperial or metric (coming soon)/Metric and Imperial Support/g; \
+s/so users all across the world can use your app without any confusion/Catering to clients globally without any measurement confusion/g; \
+s/Build authority, offer value and change lives/Build authority, enhance service, and change outdoor spaces/g; \
+s/Simple drag and drop interface/User-Friendly Drag and Drop Interface/g; \
+s/Custom recipe builder/Custom Project Templates/g; \
+s/makes it easy for you to add recipes directly in the app/Streamline the design process with reusable templates for different project types/g; \
+s/Recipes as templates/Easy Branding Integration/g; \
+s/means you can use them as part of your meal plans/Ensures that every client interaction is branded, from design to documentation/g; \
+s/Easily add your branding/Plugs in seamlessly/g; \
+s/so your users are never sent to a third party app they don’t recognise/Fits perfectly into your existing digital ecosystem/g; \
+s/Easy monetization/Simple Monetization/g; \
+s/Regular recipes and meal plans are the perfect way to monetize your diet advice and generate recurring monthly revenue/Offering design services through LandSculpt Pro is an excellent way to monetize your landscaping expertise and generate recurring revenue/g; \
+s/Your very own, full-featured meal planner app/Your very own, full-featured landscaping design software/g; \
+s/Fully customizable with your branding/Fully customizable with your branding/g; \
+s/Professional looking meal plans and recipes/Advanced 3D design capabilities/g; \
+s/Increase authority in your field/Elevate your professional image/g; \
+s/Easily scale your meal planning business/Scale your landscaping business effortlessly/g; \
+s/No technical expertise required/No need for technical skills/g; \
+s/Cancel any time/Opt-out anytime/g; \
+s/No hidden fees/Transparent pricing/g; \
+s/30-day money-back guarantee/30-day satisfaction guarantee/g; \
+s/No obligations/No long-term commitments/g; \
+s/MealPro App/LandSculpt Pro/g" landing_page.html
