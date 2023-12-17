@@ -434,7 +434,10 @@
 
         requestAccessButtons.forEach(function(button) {
             button.addEventListener('click', function(event) {
+                console.log('Button clicked'); // Debugging statement
                 event.preventDefault(); // This line should already be present
+                console.log('Modal ID:', modal.id); // Debugging statement
+                console.log('Modal Background ID:', modalBackground.id); // Debugging statement
                 modal.style.display = 'block';
                 modalBackground.style.display = 'block';
             });
