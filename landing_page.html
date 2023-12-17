@@ -434,14 +434,20 @@
 
         requestAccessButtons.forEach(function(button) {
             button.addEventListener('click', function(event) {
-                event.preventDefault();
+                event.preventDefault(); // This line should already be present
                 modal.style.display = 'block';
                 modalBackground.style.display = 'block';
             });
         });
 
-        // Optional: Add event listener to close the modal if the modal background is clicked
+        // Close modal event listener
         modalBackground.addEventListener('click', function() {
+            modal.style.display = 'none';
+            modalBackground.style.display = 'none';
+        });
+
+        // Close modal when clicking on the close button
+        document.querySelector('.close-modal').addEventListener('click', function() {
             modal.style.display = 'none';
             modalBackground.style.display = 'none';
         });
