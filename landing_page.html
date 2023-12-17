@@ -428,14 +428,16 @@
     <script src="./App_files/mealpro.74ae4beee.js" type="text/javascript"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        var requestAccessButton = document.getElementById('request-access-button');
+        var requestAccessButtons = document.querySelectorAll('.request-access-button');
         var modal = document.getElementById('modal');
         var modalBackground = document.getElementById('modal-background');
 
-        requestAccessButton.addEventListener('click', function(event) {
-            event.preventDefault();
-            modal.style.display = 'block';
-            modalBackground.style.display = 'block';
+        requestAccessButtons.forEach(function(button) {
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+                modal.style.display = 'block';
+                modalBackground.style.display = 'block';
+            });
         });
 
         // Optional: Add event listener to close the modal if the modal background is clicked
